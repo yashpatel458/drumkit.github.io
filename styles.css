@@ -95,6 +95,10 @@ footer {
 }
 @media (max-width:1028px)
 {
+   body{
+    width: 440 px;
+  }
+  
   .set{
 width: 500px;
 
