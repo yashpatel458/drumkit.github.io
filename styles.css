@@ -96,10 +96,12 @@ footer {
 @media (max-width:768px)
 {
    body{
-    width: 440 px;
+    width: 100%;
   }
-  
   .set{
 width: 500px;
+width: 100%;
 
   }
+
+}
