@@ -97,11 +97,14 @@ footer {
 {
    body{
     width: 100%;
+    text-align: center;
+    padding: none;
   }
   .set{
-width: 500px;
-width: 100%;
-
+   width: 100%;
+  }
+  h1{
+    font-size: 3.5rem;
   }
 
 }
