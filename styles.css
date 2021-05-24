@@ -93,19 +93,88 @@ footer {
   margin: 10px;
   background-color: white;
 }
-@media (max-width:600px)
+@media (max-width:1028px)
 {
-   body{
-    width: 442px;
-    height: 868px;
-    text-align: center;
-    padding: none;
+  body{
+    width: auto;
+    -webkit-transform: scale(1);
   }
   .set{
+
    width: 100%;
+   margin: 0 auto;
   }
   h1{
-    font-size: 3.5rem;
+    font-size: 6.5rem;
   }
+.drum {
+  outline: none;
+  border: 20px solid #549bff;
+  font-size: 8rem;
+  font-family: 'Arvo', cursive;
+  line-height: 0;
+  font-weight: 900;
+  color: #fbbc00;
+  text-shadow: 3px 0 #181818d6;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 40px;
+  display:inline-block
+
+}
+footer{
+  margin-top: 100px;
+  font-size:2rem;
+}
+.w {
+  background-image: url("images/tom1.png");
+  backface-visibility: inherit;
+  background-size: cover;
+
+}
+
+.a {
+  background-image: url("images/tom2.png");
+  backface-visibility: inherit;
+  background-size: cover;
+}
+
+
+.s {
+  background-image: url("images/tom3.png");
+  backface-visibility: inherit;
+  background-size: cover;
+}
+
+
+.d {
+  background-image: url("images/tom4.png");
+  backface-visibility: inherit;
+  background-size: cover;
+}
+
+
+.j {
+  background-image: url("images/snare.png");
+  backface-visibility: inherit;
+  background-size: cover;
+}
+
+
+.k {
+  background-image: url("images/crash.png");
+  backface-visibility: inherit;
+  background-size: cover;
+}
+
+
+.l {
+  background-image: url("images/kick.png");
+  backface-visibility: inherit;
+  background-size: cover;
+}
+
 
 }
